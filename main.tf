@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "mywebserver" {
   count         = 1
   ami           = "ami-01b40e1bcccae197a"
-  instance_type = "t3.small"
+  instance_type = "t3.micro"
 
   tags = {
     Name = "MyWeb-Server-test"
