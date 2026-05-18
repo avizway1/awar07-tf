@@ -8,6 +8,6 @@ resource "aws_instance" "mywebserver" {
   instance_type = "t3.small"
 
   tags = {
-    Name = "MyWeb-Server-${count.index}"
+    Name = "MyWeb-Server-test"
   }
 }
